@@ -1,0 +1,27 @@
+<!doctype html>
+<meta charset="utf-8" />
+<link rel=stylesheet type="text/css" href="style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#show').click(function() {
+			$('.menu').toggle("slide");
+			});
+		});
+</script>
+
+<title>CircleCI Challenge 2</title>
+
+	<div class="container">
+		<div id="title">
+			<h1>CircleCI Challenge 2</h1>
+		</div>
+		<div class="center">
+			<div class="button" id="show">Click Me!</div>
+			<div class="menu" style="display: none;">
+				<ul>
+					<li>Look at me!</li>
+				</ul>
+			</div>
+		</div>
+	</div>
